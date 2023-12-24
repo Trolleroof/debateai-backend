@@ -140,7 +140,7 @@ sqlparse==0.4.4
 starlette==0.27.0
 sympy==1.12
 tenacity==8.2.3
-tensorboard==2.14.1
+tensorboard==2.14.0
 tensorboard-data-server==0.7.2
 tensorflow==2.14.0
 tensorflow-estimator==2.14.0
