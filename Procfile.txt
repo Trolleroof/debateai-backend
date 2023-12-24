@@ -1,2 +1,2 @@
-RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 libGL  -y
+RUN apt-get update && apt-get install libgl1
 web: gunicorn 'debateai-backend.wsgi'
