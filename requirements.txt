@@ -84,8 +84,6 @@ numba==0.58.1
 oauthlib==3.2.2
 onnxruntime==1.16.1
 openai==0.28.1
-opencv-contrib-python
-opencv-python-headless
 opentelemetry-api==1.20.0
 opentelemetry-exporter-otlp-proto-common==1.20.0
 opentelemetry-exporter-otlp-proto-grpc==1.20.0
@@ -162,3 +160,5 @@ yarl==1.9.2
 zipp==3.17.0
 zope.event==5.0
 zope.interface==6.1
+opencv-contrib-python
+opencv-python-headless
