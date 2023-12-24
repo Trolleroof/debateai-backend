@@ -1,2 +1,14 @@
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
-web: gunicorn 'name-of-application.wsgi'
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    build-essential \
+    libssl-dev \
+    libffi-dev \
+    gcc \
+    musl-dev \
+    # libgcc \
+    # freetype-dev \
+    libpng-dev \
+    libavcodec-dev \
+    ffmpeg
+web: gunicorn 'debateai-backend.wsgi'
