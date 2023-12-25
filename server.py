@@ -101,4 +101,4 @@ def return_latest_mp4():
     return latest_mp4_file
 
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', debug=True, port=4500)
+    app.run(debug=True)
