@@ -162,5 +162,4 @@ zope.event==5.0
 zope.interface==6.1
 tensorflow-gpu==2.4.0
 tensorflow-estimator==2.4.0
-tensorflow-intel==2.4.0
 
