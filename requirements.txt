@@ -160,6 +160,5 @@ yarl==1.9.2
 zipp==3.17.0
 zope.event==5.0
 zope.interface==6.1
-tensorflow-gpu
 tensorflow-estimator==2.4.0
 
