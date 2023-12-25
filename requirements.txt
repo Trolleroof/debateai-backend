@@ -161,8 +161,6 @@ zipp==3.17.0
 zope.event==5.0
 zope.interface==6.1
 tensorflow-gpu==2.4.0
-cudatoolkit==11.0
-cuDnn==8
 tensorflow-estimator==2.4.0
 tensorflow-intel==2.4.0
 
