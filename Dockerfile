@@ -1,3 +1,3 @@
 FROM python:3.8-alpine
 
-RUN apt install -y libgl1-mesa-glx
+RUN apk update && apk install -y libgl1-mesa-glx
