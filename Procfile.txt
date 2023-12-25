@@ -1,2 +1,1 @@
-RUN apt-get install libgl1
 web: gunicorn 'debateai-backend.wsgi'
