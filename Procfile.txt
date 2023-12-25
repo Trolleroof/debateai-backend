@@ -1,3 +1,3 @@
-pip install -U opencv-python
+pip install -U opencv-python-headless
 apt update && apt install -y libsm6 libxext6 ffmpeg libfontconfig1 libxrender1 libgl1-mesa-glx
 web: gunicorn 'debateai-backend.wsgi'
